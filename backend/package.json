@@ -13,7 +13,6 @@
   "scripts": {
     "start": "nodemon server.jsx"
   },
-  "proxy": "http:localhost:8080",
   "author": "",
   "license": "ISC",
   "description": ""
