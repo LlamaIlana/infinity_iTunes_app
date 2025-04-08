@@ -14,7 +14,7 @@ const jwt = require("jsonwebtoken");
 const JWT_SECRET = "your-secret-key";
 //cors
 const cors = require("cors");
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "http://localhost:5173" }));
 // Allows us to parse the body of a request
 app.use(bodyParser.json());
 
