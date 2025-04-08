@@ -1,0 +1,55 @@
+/* Background Page*/
+.home-page {
+  background-image: url("./img/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Arial Bold", sans-serif;
+}
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.button-row {
+  display: flex;
+  gap: 15rem;
+  margin: 6rem;
+}
+button {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: 2px solid #ff7e5f;
+  background-color: rgba(255, 255, 255);
+  color: rgb(19, 19, 19);
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+  background: linear-gradient(45deg, #ff5fe2, #ff7e5f, #feb47b);
+  color: white;
+  border: none;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+
+}

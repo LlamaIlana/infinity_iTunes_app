@@ -1,0 +1,21 @@
+.footer {
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+  padding: 15px 0;
+  font-family: "Nimbus Sans", sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+}
+.footer-content a {
+  color: #f648e2;
+  text-decoration: none;
+}
+.footer-content a:hover {
+  text-decoration: underline;
+}
