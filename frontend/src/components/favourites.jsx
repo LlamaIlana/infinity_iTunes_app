@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { removeFromFavourites } from "./Redux/favouriteSlice.js";
+import { removeFromFavourites } from "./Redux/favouriteSlice.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./favourites.css";
 

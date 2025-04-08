@@ -11,7 +11,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.jsx"
   },
   "proxy": "http:localhost:8080",
   "author": "",

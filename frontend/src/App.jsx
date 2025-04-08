@@ -11,7 +11,7 @@ import Software from "./components/software.jsx";
 import ShortFilm from "./components/shortFilms.jsx";
 import All from "./components/all.jsx";
 import FavoritesPage from "./components/favourites.jsx";
-import Footer from "./components/footer.js";
+import Footer from "./components/footer.jsx";
 
 function App() {
   return (
