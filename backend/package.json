@@ -9,9 +9,10 @@
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "server.jsx",
   "scripts": {
-    "start": "nodemon server.jsx"
+    "start": "node server.jsx",
+    "dev": "nodemon server.jsx"
   },
   "author": "",
   "license": "ISC",
