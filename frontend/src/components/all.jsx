@@ -22,7 +22,7 @@ function All() {
       }
   
       try {
-        const response = await fetch(`http://localhost:8080/all?term=${searchAll}`, {
+        const response = await fetch(`https://infinity-itunes-app.onrender.com/all?term=${searchAll}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`, // Ensure the 'Bearer ' prefix is included

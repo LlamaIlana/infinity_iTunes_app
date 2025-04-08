@@ -1,20 +1,20 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const getAll = require("./routes/getAll.jsx");
-const getMusic = require("./routes/getMusic.jsx");
-const getEbook = require("./routes/getEBook.jsx");
-const getMovie = require("./routes/getMovie.jsx");
-const getPodcast = require("./routes/getPodcast.jsx");
-const getShortFilm = require("./routes/getShortFilm.jsx");
-const getSoftware = require("./routes/getSoftware.jsx");
-const getTVSeries = require("./routes/getTVSeries.jsx");
+const getAll = require("./routes/getAll.js");
+const getMusic = require("./routes/getMusic.js");
+const getEbook = require("./routes/getEBook.js");
+const getMovie = require("./routes/getMovie.js");
+const getPodcast = require("./routes/getPodcast.js");
+const getShortFilm = require("./routes/getShortFilm.js");
+const getSoftware = require("./routes/getSoftware.js");
+const getTVSeries = require("./routes/getTVSeries.js");
 
 const app = express();
 const jwt = require("jsonwebtoken");
 const JWT_SECRET = "your-secret-key";
 //cors
 const cors = require("cors");
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors());
 // Allows us to parse the body of a request
 app.use(bodyParser.json());
 
