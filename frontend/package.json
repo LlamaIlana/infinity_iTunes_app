@@ -1,7 +1,6 @@
 {
   "name": "infinity-search",
   "version": "0.1.0",
-  "proxy": "http://localhost:3000",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
@@ -14,8 +13,7 @@
     "react-dom": "^18.0.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.1.3",
-    "remix": "^2.16.4",
-    "vite": "^6.2.5",
+    "vite": "^4.3.0", 
     "vite-tsconfig-paths": "^5.1.4",
     "web-vitals": "^4.2.4"
   },
