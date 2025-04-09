@@ -22,7 +22,7 @@ function Software() {
       }
   
       try {
-        const response = await fetch(`http://localhost:8080/software?term=${searchSoftware}`, {
+        const response = await fetch(`https://infinity-itunes-app.onrender.com/software?term=${searchSoftware}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`, // Ensure the 'Bearer ' prefix is included

@@ -21,7 +21,7 @@ function Music() {
     }
 
     try {
-      const response = await fetch(`http://localhost:8080/music?term=${searchMusic}`, {
+      const response = await fetch(`https://infinity-itunes-app.onrender.com/music?term=${searchMusic}`, {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`, // Ensure the 'Bearer ' prefix is included

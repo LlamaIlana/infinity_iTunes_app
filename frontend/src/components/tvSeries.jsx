@@ -22,7 +22,7 @@ function TvSeries() {
       }
   
       try {
-        const response = await fetch(`http://localhost:8080/tvseries?term=${searchTvSeries}`, {
+        const response = await fetch(`https://infinity-itunes-app.onrender.com/tvseries?term=${searchTvSeries}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`, // Ensure the 'Bearer ' prefix is included
