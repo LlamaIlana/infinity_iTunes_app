@@ -1,9 +1,0 @@
-[build]
-  publish = "build"  # The directory containing your build output
-  command = "npm run build"  # The build command to run
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = true
