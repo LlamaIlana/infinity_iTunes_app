@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     // Fetch JWT token when the user visits the homepage
     const fetchToken = async () => {
-      const response = await fetch("http://localhost:8080/");
+      const response = await fetch("https://infinity-itunes-app.onrender.com");
       const data = await response.json();
       
       // Store token in localStorage

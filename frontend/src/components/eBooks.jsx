@@ -20,7 +20,7 @@ function EBook() {
       }
   
       try {
-        const response = await fetch(`http://localhost:8080/ebooks?term=${searchEBook}`, {
+        const response = await fetch(`https://infinity-itunes-app.onrender.com/ebooks?term=${searchEBook}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`, // Ensure the 'Bearer ' prefix is included
